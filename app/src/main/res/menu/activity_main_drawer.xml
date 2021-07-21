@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_group_id">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_nav"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/page10"
+            android:icon="@drawable/ic_action_user_focus"
+            android:title=" Profile" />
+        <item
+            android:id="@+id/page4"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="Product" />
+
+        <item
+            android:id="@+id/page15"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="Catagory" />
+        <item
+            android:id="@+id/page11"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="Populer Product" />
+
+        <item
+            android:id="@+id/page13"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="my order" />
+
+        <item
+            android:id="@+id/page14"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="my Sell" />
+
+
+        <item
+            android:id="@+id/page9"
+            android:icon="@drawable/ic_shopping_nav"
+            android:title="Sell" />
+
+        <item
+            android:id="@+id/addres_info"
+            android:icon="@drawable/ic_home_nav"
+            android:title="Address Info" />
+
+
+        <item
+            android:id="@+id/page7"
+            android:icon="@drawable/ic_action_user_focus"
+            android:title="About" />
+        <item
+            android:id="@+id/page8"
+            android:icon="@drawable/ic_action_email_focus"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/page12"
+            android:icon="@drawable/ic_action_email_focus"
+            android:title="Payment info" />
+
+
+
+        <item
+            android:icon="@drawable/ic_logout_nav"
+            android:id="@+id/page5"
+            android:title="Logout" />
+    </group>
+    <!--
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:title="Send" />
+            </menu>
+        </item>
+    -->
+
+</menu>
